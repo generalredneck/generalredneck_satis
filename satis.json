@@ -1,0 +1,202 @@
+{
+  "name": "generalredneck/packages",
+  "homepage": "https://generalredneck.github.io/packages",
+  "repositories": [
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/dropzone",
+          "version": "5.9.2",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "dropzone/dist"
+          },
+          "dist": {
+            "url": "https://github.com/dropzone/dropzone/releases/download/v5.9.2/dist.zip",
+            "type": "zip"
+          }
+        },
+        {
+          "name": "drupal-library/dropzone",
+          "version": "5.7.6",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "dropzone/dist"
+          },
+          "dist": {
+            "url": "https://github.com/dropzone/dropzone/releases/download/v5.7.6/dist.zip",
+            "type": "zip"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": {
+        "name": "drupal-library/ckeditor-wordcount-plugin",
+        "version": "1.17.8",
+        "type": "drupal-library",
+        "dist": {
+          "url": "https://github.com/w8tcha/CKEditor-WordCount-Plugin/releases/download/v1.17.8/CKEditor-WordCount-Plugin.zip",
+          "type": "zip"
+        }
+      }
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/blazy",
+          "version": "1.8.2",
+          "type": "drupal-library",
+          "dist": {
+            "url": "https://github.com/dinbror/blazy/archive/1.8.2.zip",
+            "type": "zip"
+          },
+          "require": {
+            "composer/installers": "^1.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/selectivity",
+          "version": "3.1.0",
+          "type": "drupal-library",
+          "dist": {
+            "url": "https://github.com/arendjr/selectivity/releases/download/3.1.0/selectivity-3.1.0.tar.gz",
+            "type": "tar"
+          },
+          "require": {
+            "composer/installers": "^1.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/jquery-ui-touch-punch",
+          "version": "1.0.0",
+          "type": "drupal-library",
+          "dist": {
+            "url": "https://github.com/furf/jquery-ui-touch-punch/archive/refs/heads/master.zip",
+            "type": "zip"
+          },
+          "require": {
+            "composer/installers": "^1.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/ckeditor-templates",
+          "version": "4.16.1",
+          "type": "drupal-library",
+          "dist": {
+            "url": "https://download.ckeditor.com/templates/releases/templates_4.16.1.zip",
+            "type": "zip"
+          },
+          "extra": {
+            "installer-name": "templates"
+          },
+          "require": {
+            "composer/installers": "^1.2.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/masonry",
+          "version": "3.3.1",
+          "type": "drupal-library",
+          "dist": {
+            "url": "https://github.com/desandro/masonry/archive/v3.3.1.zip",
+            "type": "zip"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/imagesloaded",
+          "version": "3.1.8",
+          "type": "drupal-library",
+          "dist": {
+            "url": "https://github.com/desandro/imagesloaded/archive/v3.1.8.zip",
+            "type": "zip"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/c3",
+          "version": "v0.4.18",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "c3"
+          },
+          "dist": {
+            "url": "https://github.com/c3js/c3/archive/v0.4.18.zip",
+            "type": "zip"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal-library/d3",
+          "version": "v3.5.17",
+          "type": "drupal-library",
+          "extra": {
+            "installer-name": "d3"
+          },
+          "dist": {
+            "url": "https://github.com/d3/d3/archive/v3.5.17.zip",
+            "type": "zip"
+          },
+          "require": {
+            "composer/installers": "~1.0"
+          }
+        }
+      ]
+    },
+    {
+      "type": "package",
+      "package": [
+        {
+          "name": "drupal/google_analytics_counter",
+          "version": "dev-3.x-custom",
+          "source": {
+            "type": "git",
+            "url": "https://github.com/fourkitchens/ga-counter-d9-ready.git",
+            "reference": "58f4a7e007e542cf3aa48aa8b809746400ae0a3e"
+          },
+          "require": {
+            "drupal/core": "^8 || ^9"
+          },
+          "type": "drupal-module"
+        }
+      ]
+    }
+  ],
+  "require-all": true
+}

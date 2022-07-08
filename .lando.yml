@@ -1,0 +1,6 @@
+name: gr-packages
+recipe: lemp
+config:
+  webroot: packages
+  composer_version: 2
+  php: '7.4'

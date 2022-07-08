@@ -1,0 +1,9 @@
+{
+    "name": "generalredneck/packages",
+    "require": {
+        "composer/satis": "^1.0"
+    },
+    "scripts": {
+        "build": "./vendor/bin/satis build satis.json packages"
+    }
+}
