@@ -26,6 +26,9 @@ jobs:
       - store_artifacts:
           path: packages
       - run:
+          name: Configure Git
+          command: git config --global user.email "deploy.bot@example.com" && git config --global user.name "Deploy Bot"
+      - run:
           name: Copy packagist to github pages.
           command: ./scripts/deploy.sh
 workflows:
